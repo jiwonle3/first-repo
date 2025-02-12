@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(void)
+{
+	char test[] = "Bonjour les aminches\t\nc est fou tout ce qu'on peut faire avec\n\nlol.lol\n ";
+	ft_print_memory(test, sizeof(test) - 1);
+	return (0);
+}
